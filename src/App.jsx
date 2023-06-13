@@ -5,6 +5,8 @@ import Advertisements from "./components/Advertisements/Advertisements"
 import { codepathUserProfile, firstTweet, navLinks } from "./constants"
 import { useState } from 'react'
 
+// create filter or map story - scary story, interesting story, or fantasy story
+
 export default function App() {
   const [userProfile, setUserProfile] = useState(codepathUserProfile)
   const [tweets, setTweets] = useState([firstTweet])

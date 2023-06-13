@@ -5,7 +5,6 @@ import "./Feed.css"
 export default function Feed(props) {
   return (
     <div className="col feed">
-      {/* UPDATE TWEET BOX PROPS HERE */}
       <TweetBox userProfile={props.userProfile} setTweets={props.setTweets}/>
 
       <div className="see-new-tweets beet">
