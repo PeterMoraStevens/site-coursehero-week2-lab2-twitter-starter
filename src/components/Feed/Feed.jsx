@@ -15,6 +15,7 @@ export default function Feed(props) {
       </div>
 
       <div className="twitter-feed">{/* ADD CODE HERE */}</div>
+        
     </div>
   )
 }
